@@ -1,11 +1,13 @@
 # songs_paraphraser
 Paraphrasing an existing song in a way that gives the song scientific meaning.
-**How to Use**
+# **How to Use**
 1. Install all the project requirements.
 2. The lyrics download is based on lyrics-extractor library. To use this library, 'GCS_API_KEY' and 'GCS_ENGINE_ID' are required.
    a detailed explanation of how to prepare these keys can be found here: https://github.com/Techcatchers/PyLyrics-Extractor
 3. Run from terminal:
+ ```
    python main.py --topic physics
+ ```
    song topic can be any scientific and technologic topic (physics, chemistry, biology, computer science, etc)
 4. Enjoy reading the scientific poem :)
 5. Example of "Wake me Up"/Avicii - Physical Edition:
