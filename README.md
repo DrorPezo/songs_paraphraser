@@ -4,7 +4,8 @@ Song's topic can be any scientific and technologic topic (physics, chemistry, bi
 # **How to Use**
 1. Install all the project requirements.
 2. The lyrics download is based on lyrics-extractor library. To use this library, 'GCS_API_KEY' and 'GCS_ENGINE_ID' are required.
-   a detailed explanation of how to prepare these keys can be found here: https://github.com/Techcatchers/PyLyrics-Extractor
+   a detailed explanation of how to prepare these keys can be found here: https://github.com/Techcatchers/PyLyrics-Extractor .
+   
    Add these keys to lines 26-27 in main.py file:
    ```
     GCS_API_KEY =
