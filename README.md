@@ -2,7 +2,7 @@
 Paraphrasing an existing song in a way that gives the song scientific meaning.
 Song's topic can be any scientific and technologic topic (physics, chemistry, biology, computer science, etc).
 # **How to Use**
-1. Install all the project requirements.
+1. Install project requirements.
 2. The lyrics download is based on lyrics-extractor library. To use this library, 'GCS_API_KEY' and 'GCS_ENGINE_ID' are required.
    a detailed explanation of how to prepare these keys can be found here: https://github.com/Techcatchers/PyLyrics-Extractor .
    
