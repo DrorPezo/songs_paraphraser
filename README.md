@@ -15,7 +15,7 @@ Song's topic can be any scientific and technologic topic (physics, chemistry, bi
 3. Run from terminal:
 
  ```
-   python main.py --topic physics
+   python main.py --topic topic
  ```
    
 4. Enjoy reading the scientific poem :)
