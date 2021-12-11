@@ -43,10 +43,3 @@ if __name__ == '__main__':
         new_line = ' '.join(new_line)
         new_song.append(new_line)
     print_song(new_song)
-
-
-
-
-
-
-
