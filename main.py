@@ -23,8 +23,8 @@ if __name__ == '__main__':
     args = my_parser.parse_args()
     # check here: https://github.com/Techcatchers/PyLyrics-Extractor
     # to renew GCS_API_KEY and GCS_ENGINE_ID
-    GCS_API_KEY =
-    GCS_ENGINE_ID =
+    GCS_API_KEY = ""
+    GCS_ENGINE_ID = ""
     song, lyrics_list = download_lyrics(GCS_API_KEY, GCS_ENGINE_ID)
     print(song)
     print('\n')
@@ -37,7 +37,7 @@ if __name__ == '__main__':
         tokens = nltk.pos_tag(nltk.word_tokenize(line))
         for token in tokens:
             word, word_type = token
-            if word_type == "NN":
+            if word_type == "NN" or word_type == "ADJ" or word_type == "ADV":
                 word = find_rhyme(word, suffix_dict)
             new_line.append(word)
         new_line = ' '.join(new_line)
